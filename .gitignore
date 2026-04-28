@@ -6,4 +6,5 @@ out
 dist
 *.tsbuildinfo
 vercel.json
+.vercel-env-*.tmp
 .vercel
