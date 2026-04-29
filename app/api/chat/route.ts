@@ -96,7 +96,7 @@ export async function POST(request: Request) {
     return jsonError("Invalid JSON body.", 400);
   }
 
-  const runId = body.runId ?? process.env.NEXT_PUBLIC_DEFAULT_RUN_ID ?? "v2_run_20260424_104054";
+  const runId = body.runId ?? process.env.NEXT_PUBLIC_DEFAULT_RUN_ID ?? "v2_run_20260428_173648";
   const message = body.message?.trim();
   const history = safeHistory(body.history);
 

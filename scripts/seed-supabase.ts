@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { createClient } from "@supabase/supabase-js";
 
-const runId = process.argv[2] ?? "v2_run_20260424_104054";
+const runId = process.argv[2] ?? "v2_run_20260428_173648";
 const bucket = process.env.SUPABASE_REPORTS_BUCKET ?? "reports";
 const supabaseUrl = process.env.SUPABASE_URL;
 const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
