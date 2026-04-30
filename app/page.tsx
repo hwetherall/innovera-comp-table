@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
 
 export default function Home() {
-  redirect(`/reports/${process.env.NEXT_PUBLIC_DEFAULT_RUN_ID ?? "v2_run_20260428_173648"}`);
+  redirect(`/reports/${process.env.NEXT_PUBLIC_DEFAULT_RUN_ID ?? "v2_run_20260429_163158"}`);
 }

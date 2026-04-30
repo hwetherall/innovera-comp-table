@@ -14,9 +14,9 @@ type ChatPanelProps = {
 };
 
 const EXAMPLE_PROMPTS = [
-  "What are the top strategic risks in this report?",
-  "Compare Rogo, Hebbia, and AlphaSense.",
-  "What should Innovera do first?",
+  "How should Innovera package the 30-day Initiative Sprint?",
+  "Which competitors are the biggest threats to Innovera's decision-twin wedge?",
+  "What pricing and transparency moves should Innovera publish first?",
 ];
 
 export function ChatPanel({ runId }: ChatPanelProps) {
